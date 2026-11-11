@@ -1,0 +1,7 @@
+﻿reglage;nb_tests;gain_moyen_pourcent;temps_moyen_secondes
+reference;3;29.0464;0.150532
+iterations_160;3;29.0464;0.294286
+tabou_5;3;29.0464;0.148778
+tabou_20;3;29.0464;0.162473
+voisins_100;3;28.6456;0.050441
+voisins_400;3;28.7377;0.296749

@@ -1,0 +1,20 @@
+ETUDE 1 - 60 INSTANCES
+======================
+
+Mesures sur instances artificielles, pas de GAP / optimum connu.
+Temps mesures : recherche tabou seule (generation exclue).
+Cout : somme des durees de tournee, attente incluse.
+Le gain mesure seulement l'amelioration sur la solution initiale.
+
+Nombre d'executions : 60
+Solutions valides : 60/60
+Iterations maximum : 80
+Taille de la liste tabou : 12
+Voisins examines au maximum : 250
+Graine de recherche : 123
+Gain moyen global (%) : 33.11
+Ecart-type global des gains (points) : 14.66
+
+Limites : instances construites autour d'une solution initiale realisable ;
+temps de trajet fixes, voisinage SWAP + DEPLACER + ECHANGER LES FINS, service nul.
+Les variations de taille changent aussi le nombre de camions.

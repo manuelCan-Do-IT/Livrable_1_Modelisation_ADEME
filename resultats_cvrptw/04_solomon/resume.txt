@@ -1,0 +1,27 @@
+ETUDE 4 - INSTANCES DE SOLOMON (VRPLIB)
+
+Objectif : distance totale (temps de trajet T_ij = distance d_ij).
+Gap = 100 x (distance - optimum publie) / optimum publie.
+12 instances, tailles (25, 50, 100), graines (1, 2, 3), 5000 iterations, 250 voisins tires, liste tabou 120.
+
+ 25 clients | C1     | gap moyen   0.33 % | ecart-type  0.82 | pire   2.00 % | 10.8 s
+ 25 clients | C2     | gap moyen   0.00 % | ecart-type  0.00 | pire   0.00 % | 12.2 s
+ 25 clients | R1     | gap moyen   0.46 % | ecart-type  0.72 | pire   1.43 % | 10.3 s
+ 25 clients | R2     | gap moyen   2.11 % | ecart-type  1.32 | pire   3.65 % | 11.4 s
+ 25 clients | RC1    | gap moyen   8.66 % | ecart-type  6.27 | pire  14.66 % | 8.9 s
+ 25 clients | RC2    | gap moyen   0.28 % | ecart-type  0.42 | pire   1.07 % | 12.7 s
+ 25 clients | toutes | gap moyen   1.97 % | ecart-type  3.97 | pire  14.66 % | 11.0 s
+ 50 clients | C1     | gap moyen   6.17 % | ecart-type  1.51 | pire   8.66 % | 7.8 s
+ 50 clients | C2     | gap moyen   6.17 % | ecart-type  3.88 | pire   9.63 % | 11.8 s
+ 50 clients | R1     | gap moyen   1.24 % | ecart-type  0.77 | pire   1.98 % | 9.2 s
+ 50 clients | R2     | gap moyen   4.46 % | ecart-type  1.51 | pire   6.25 % | 12.1 s
+ 50 clients | RC1    | gap moyen   2.56 % | ecart-type  0.46 | pire   3.06 % | 8.3 s
+ 50 clients | RC2    | gap moyen   3.49 % | ecart-type  6.92 | pire  17.57 % | 10.0 s
+ 50 clients | toutes | gap moyen   4.02 % | ecart-type  3.62 | pire  17.57 % | 9.9 s
+100 clients | C1     | gap moyen   4.51 % | ecart-type  1.74 | pire   7.64 % | 7.4 s
+100 clients | C2     | gap moyen   7.34 % | ecart-type  2.59 | pire  11.81 % | 12.1 s
+100 clients | R1     | gap moyen   1.86 % | ecart-type  0.40 | pire   2.66 % | 10.7 s
+100 clients | R2     | gap moyen   6.04 % | ecart-type  1.01 | pire   7.78 % | 16.9 s
+100 clients | RC1    | gap moyen   4.44 % | ecart-type  1.38 | pire   6.15 % | 10.5 s
+100 clients | RC2    | gap moyen   8.00 % | ecart-type  3.89 | pire  14.69 % | 15.1 s
+100 clients | toutes | gap moyen   5.37 % | ecart-type  2.88 | pire  14.69 % | 12.1 s

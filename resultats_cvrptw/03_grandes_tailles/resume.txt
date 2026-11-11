@@ -1,0 +1,17 @@
+ETUDE 3 - GRANDES TAILLES
+=========================
+
+Mesures sur instances artificielles, pas de GAP / optimum connu.
+Temps mesures : recherche tabou seule (generation exclue).
+Cout : somme des durees de tournee, attente incluse.
+Le gain mesure seulement l'amelioration sur la solution initiale.
+
+Nombre d'executions : 3
+Solutions valides : 3/3
+Tailles : 500, 1000, 2000 clients
+Budget : 80 iterations, 100 voisins max, même graine de recherche
+Précision : 1 instance par taille : faisabilité, pas robustesse
+
+Limites : instances construites autour d'une solution initiale realisable ;
+temps de trajet fixes, voisinage SWAP + DEPLACER + ECHANGER LES FINS, service nul.
+Les variations de taille changent aussi le nombre de camions.

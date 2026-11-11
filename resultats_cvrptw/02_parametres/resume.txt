@@ -1,0 +1,17 @@
+ETUDE 2 - PARAMETRES
+====================
+
+Mesures sur instances artificielles, pas de GAP / optimum connu.
+Temps mesures : recherche tabou seule (generation exclue).
+Cout : somme des durees de tournee, attente incluse.
+Le gain mesure seulement l'amelioration sur la solution initiale.
+
+Nombre d'executions : 18
+Solutions valides : 18/18
+Reference : iterations=80, tabou=12, voisins=250
+Instances : 30 clients, 5 camions, graines 1/2/3, groupes et fenêtres larges
+Configurations : reference, iterations_160, tabou_5, tabou_20, voisins_100, voisins_400
+
+Limites : instances construites autour d'une solution initiale realisable ;
+temps de trajet fixes, voisinage SWAP + DEPLACER + ECHANGER LES FINS, service nul.
+Les variations de taille changent aussi le nombre de camions.
