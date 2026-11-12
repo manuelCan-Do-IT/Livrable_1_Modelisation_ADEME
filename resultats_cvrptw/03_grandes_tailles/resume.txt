@@ -13,5 +13,5 @@ Budget : 80 iterations, 100 voisins max, même graine de recherche
 Précision : 1 instance par taille : faisabilité, pas robustesse
 
 Limites : instances construites autour d'une solution initiale realisable ;
-temps de trajet fixes, voisinage SWAP + DEPLACER + ECHANGER LES FINS, service nul.
+temps de trajet fixes, voisinage SWAP uniquement, service nul.
 Les variations de taille changent aussi le nombre de camions.

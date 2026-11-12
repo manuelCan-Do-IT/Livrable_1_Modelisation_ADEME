@@ -13,5 +13,5 @@ Instances : 30 clients, 5 camions, graines 1/2/3, groupes et fenêtres larges
 Configurations : reference, iterations_160, tabou_5, tabou_20, voisins_100, voisins_400
 
 Limites : instances construites autour d'une solution initiale realisable ;
-temps de trajet fixes, voisinage SWAP + DEPLACER + ECHANGER LES FINS, service nul.
+temps de trajet fixes, voisinage SWAP uniquement, service nul.
 Les variations de taille changent aussi le nombre de camions.

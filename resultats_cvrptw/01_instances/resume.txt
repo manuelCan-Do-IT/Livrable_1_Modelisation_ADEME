@@ -12,9 +12,9 @@ Iterations maximum : 80
 Taille de la liste tabou : 12
 Voisins examines au maximum : 250
 Graine de recherche : 123
-Gain moyen global (%) : 33.11
-Ecart-type global des gains (points) : 14.66
+Gain moyen global (%) : 29.88
+Ecart-type global des gains (points) : 13.95
 
 Limites : instances construites autour d'une solution initiale realisable ;
-temps de trajet fixes, voisinage SWAP + DEPLACER + ECHANGER LES FINS, service nul.
+temps de trajet fixes, voisinage SWAP uniquement, service nul.
 Les variations de taille changent aussi le nombre de camions.
